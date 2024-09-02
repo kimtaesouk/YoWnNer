@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".Change_Record_Dialog"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/back_dialog_to_edittimer"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/icon_back"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <EditText
+                android:id="@+id/et_starttime_hour"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/board"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textSize="40dp"/>
+            <EditText
+                android:id="@+id/et_starttime_min"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/board"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textSize="40dp"/>
+            <EditText
+                android:id="@+id/et_starttime_sec"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/board"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <EditText
+                android:id="@+id/et_stoptime_hour"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/board"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textSize="40dp"/>
+            <EditText
+                android:id="@+id/et_stoptime_min"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/board"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textSize="40dp"/>
+            <EditText
+                android:id="@+id/et_stoptime_sec"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/board"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_record_change"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text="확인"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"/>
+
+            <Button
+                android:id="@+id/btn_record_delete"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text="삭제"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="20dp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout >

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Timer_hide_check_dialog">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="타이머를 숨김 하시겠습니까?"
+                android:gravity="center"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*타이머를 더이상 표시하지 않습니다"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/btn_timer_hide_cancle"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text="취소"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginLeft="30dp"/>
+
+                <Button
+                    android:id="@+id/btn_timer_hide_ok"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text="확인"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    />
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+</LinearLayout>

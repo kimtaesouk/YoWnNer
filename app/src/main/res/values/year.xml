@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cal_year"> </string>
+    <string-array name="year">
+        <item>
+            2020
+        </item>
+        <item>
+            2021
+        </item>
+        <item>
+            2022
+        </item>
+        <item>
+            2023
+        </item>
+        <item>
+            2024
+        </item>
+        <item>
+            2025
+        </item>
+        <item>
+            2026
+        </item>
+    </string-array>
+</resources>

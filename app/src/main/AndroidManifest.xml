@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- 인터넷 상태 확인 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.YoWnNer"
+        tools:targetApi="31">
+        <activity
+            android:name=".AddStudy_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Change_Record_Dialog"
+            android:exported="false" />
+        <activity
+            android:name=".Edit_Record_activity"
+            android:exported="false" />
+
+        <service
+            android:name=".TimerService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".Time_measurement_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Timer_delet_check_dialog"
+            android:exported="false" />
+        <activity
+            android:name=".Timer_Edit_Dialog"
+            android:exported="false" />
+        <activity
+            android:name=".Edit_Timer_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Timer_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Work_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Change_Work_Dialog"
+            android:exported="false" />
+        <activity
+            android:name=".ChangePassword_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Profile_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Main_activity"
+            android:exported="false" />
+        <activity
+            android:name=".FindPassword_activity"
+            android:exported="false" />
+        <activity
+            android:name=".MyDialog"
+            android:exported="false" />
+        <activity
+            android:name=".Singup_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Login_activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

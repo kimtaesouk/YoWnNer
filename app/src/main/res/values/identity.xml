@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="identity"> </string>
+    <string-array name="identity">
+        <item>
+            신분을 선택해주세요
+        </item>
+        <item>
+            초등
+        </item>
+        <item>
+            중1
+        </item>
+        <item>
+            중2
+        </item>
+        <item>
+            중3
+        </item>
+        <item>
+            고1
+        </item>
+        <item>
+            고2
+        </item>
+        <item>
+            고3/N수생
+        </item>
+        <item>
+            대학생
+        </item>
+        <item>
+            편준생
+        </item>
+        <item>
+            PEET
+        </item>
+        <item>
+            LEET
+        </item>
+        <item>
+            MDEET
+        </item>
+        <item>
+            로스쿨
+        </item>
+        <item>
+            의대/의전원
+        </item>
+        <item>
+            대학원
+        </item>
+        <item>
+            공무원
+        </item>
+        <item>
+            임용 유아
+        </item>
+        <item>
+            임용 초등
+        </item>
+        <item>
+            임용 중등
+        </item>
+        <item>
+            임용 특수
+        </item>
+        <item>
+            공인중개사
+        </item>
+        <item>
+            회계사
+        </item>
+        <item>
+            세무사
+        </item>
+        <item>
+            관세사
+        </item>
+        <item>
+            법무사
+        </item>
+        <item>
+            노무사
+        </item>
+        <item>
+            감정평가사
+        </item>
+        <item>
+            변리사
+        </item>
+        <item>
+            취준생
+        </item>
+        <item>
+            직장인
+        </item>
+        <item>
+            어학
+        </item>
+        <item>
+            자격증
+        </item>
+        <item>
+            기타
+        </item>
+    </string-array>
+</resources>

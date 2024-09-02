@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile_activity"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/back_profile_so_main"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/icon_back" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="프로필"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="#000000"/>
+
+
+    <ImageView
+        android:background="@drawable/circle_background"
+        android:id="@+id/Iv_profile_image_profile"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:src="@drawable/icon_nomalprofile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="프로필 이미지"
+        android:textSize="15sp"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="이름"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000"/>
+        <EditText
+            android:id="@+id/et_name_profile"
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="38dp"
+            android:background="@drawable/board"
+            android:maxLines="1"
+            android:scrollbars="none"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="생년월일"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000"/>
+        <EditText
+            android:id="@+id/et_birth_profile"
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/board"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="성별"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000"/>
+
+        <Spinner
+            android:id="@+id/sn_sex_profile"
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:spinnerMode="dropdown"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="512dp"
+            android:layout_marginLeft="38dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="신분"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000"/>
+
+        <Spinner
+            android:id="@+id/sn_identity_profile"
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:spinnerMode="dropdown"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="512dp"
+            android:layout_marginLeft="38dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_change_profile"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="프로필 변경"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        />
+
+</LinearLayout>

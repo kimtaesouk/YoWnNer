@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="홈"
+        android:enabled="true"
+        />
+    <item
+        android:id="@+id/calendar"
+        android:icon="@drawable/calendar"
+        android:title="캘린더"
+        android:enabled="true"
+        />
+    <item
+        android:id="@+id/stady"
+        android:icon="@drawable/icon_stady"
+        android:title="스터디"
+        android:enabled="true"
+        />
+    <item
+        android:id="@+id/manager"
+        android:icon="@drawable/manager"
+        android:title="매니저"
+        android:enabled="true"
+        />
+
+</menu>

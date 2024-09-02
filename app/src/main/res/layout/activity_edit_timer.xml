@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Edit_Timer_activity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+        <ImageView
+            android:id="@+id/back_edittimer_to_timer"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/icon_back" />
+
+
+        <LinearLayout
+            android:id="@+id/lilay_date_timer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/tv_date_timer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="타이머 편집"
+                android:layout_marginRight="20dp"
+                android:textStyle="bold"
+                android:textSize="30sp"/>
+        </LinearLayout>
+
+</LinearLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp">
+                    <Button
+                        android:id="@+id/btn_showtimer_list"
+                        android:layout_width="70dp"
+                        android:layout_height="40dp"
+                        android:text="보임"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/radius2"/>
+                    <Button
+                        android:id="@+id/btn_hidentimer_list"
+                        android:layout_width="80dp"
+                        android:layout_height="40dp"
+                        android:text="숨김"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/radius2"/>
+                </LinearLayout>
+
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_timer_edit_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp" />
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

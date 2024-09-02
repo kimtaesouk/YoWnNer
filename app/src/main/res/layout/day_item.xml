@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_day_layout"
+    android:layout_width="60dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/item_day_text"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:textSize="19dp"
+        android:text="9"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/iv_isWrite"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:src="@drawable/baseline_brightness_1_24"
+            android:layout_marginLeft="12dp"/>
+
+        <ImageView
+            android:id="@+id/iv_istime"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:src="@drawable/baseline_brightness_2_24"
+            android:layout_marginLeft="12dp"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <TextView
+        android:id="@+id/tv_time_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="00:00:00"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="12sp"/>
+
+
+
+</LinearLayout>

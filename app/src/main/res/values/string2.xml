@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usersex"> </string>
+    <string-array name="sex">
+        <item>
+            성별을 선택해주세요
+        </item>
+        <item>
+            남성
+        </item>
+        <item>
+            여성
+        </item>
+    </string-array>
+</resources>
